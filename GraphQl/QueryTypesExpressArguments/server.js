@@ -7,7 +7,7 @@ var {buildSchema} = require("graphql")
 // curl -X POST -H "Content-Type: application/json" -d '{"query": "{returnXRandomNum(xNumber:10, sideNum:5)}" }' http://localhost:4000/graphql
 
 
-// define arggument
+// create schema and its argguments
 var schema = buildSchema(`
 	type Query {
 		returnXRandomNum(xNumber: Int!, sideNum: Int) : [Int]
@@ -15,6 +15,7 @@ var schema = buildSchema(`
 `)
 
 
+// define query functions 
 var root = {
 	returnXRandomNum(args) {
 	let output = []
@@ -29,9 +30,10 @@ var root = {
 	},
 }
 
-
+// ready express app
 var app = express()
 
+// define API endpoint
 app.all(
 	"/graphql",
 	createHandler({
@@ -40,9 +42,7 @@ app.all(
 	})
 )
 
-
-
+// running express app
 app.listen(4000)
-
 console.log("Running a GraphQL API server at localhost:4000/graphql")
 
