@@ -3,7 +3,7 @@ var { createHandler } = require("graphql-http/lib/use/express")
 var { buildSchema } = require("graphql")
 var { ruruHTML } = require("ruru/server")
 
-// create schema
+// create schema type
 var schema = buildSchema(`
 	type Query {
 		hello: String
@@ -17,10 +17,10 @@ var root  = {
 	},
 }
 
-//  
+// ready express app
 var app = express()
 
-// define API url
+// define API endpoint
 app.all(
 	"/graphql",
 	 createHandler({
