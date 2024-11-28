@@ -10,7 +10,7 @@ var schema = buildSchema(`
 	}
 `)
 
-// create queries function
+// create queries function (Resolver)
 var root  = {
 	hello() {
 		return "Hello Wrold!"

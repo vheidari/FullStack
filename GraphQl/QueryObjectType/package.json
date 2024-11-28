@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "vheidari",
   "license": "ISC",
+  "engines": {
+  	"node": "<=20.17.0"
+  },
   "description": "",
   "dependencies": {
     "express": "^4.21.1",
