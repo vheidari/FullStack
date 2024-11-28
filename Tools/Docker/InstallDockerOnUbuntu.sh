@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#=======================================[  Base64 Encoder/Decoder  ]=========================================
+#=======================================[  Install DockerEngine/DockerDesktop  ]=========================================
 # Author : vheidari
 # Email  : vahid-heidari@hotmail.com
 # GitHub : https://github.com/vheidari/FullStack
