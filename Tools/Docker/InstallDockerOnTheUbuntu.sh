@@ -5,7 +5,7 @@
 # Email  : vahid-heidari@hotmail.com
 # GitHub : https://github.com/vheidari/FullStack
 # ----------------------------------------------------------------------------------------------------------------
-# Note:  InsallDockerOnUbuntu.sh help us to download and install docker engine and docker desktop on the Linux Ubuntu
+# Note:  InsallDockerOnTheUbuntu.sh help us to download and install docker engine and docker desktop on the Linux Ubuntu
 #
 
 # Get System Proxy Settings
