@@ -5,7 +5,7 @@
 # Email  : vahid-heidari@hotmail.com
 # GitHub : https://github.com/vheidari/FullStack
 # ----------------------------------------------------------------------------------------------------------------
-# Note: This Bash script help us to install all the neccessery images for development. you are free to change and cutomize it for personal purposes. 
+# Note: This Bash script help us to install all the necessary images for development. you are free to change and cutomize it for personal purposes. 
 #
 
 echo "Start Downloding a list of usefull images from Docker Hub :) ..." 

@@ -18,13 +18,13 @@ It will download and install all necessarily `.deb` package from `Docker` websit
 > Note : Before using any bash script inside this `repo` please be carfull to run them in test environment and be sure don't use them in production environment.
 
 
-## Installing All Neccessry IMAGES to setup Development environment thorugh `DownloadAllNeccesserlyDockerImages.sh`
-These are list of Image that I perfer download and install before development process :`nginx`, `rabbitmq`, `mongo`, `apache/kafka`, `mysql`, `postgres`, `scylladb/scylla`, `redis`, `node`, `php`, `golang`, `python`, `rust`, `hello-world``DownloadAllNeccesserlyDockerImages.sh` help to download them without any problem.
+## Installing All Necessary IMAGES to setup Development environment thorugh `DownloadAllNecessarilyDockerImages.sh`
+These are list of Image that I perfer download and install before development process :`nginx`, `rabbitmq`, `mongo`, `apache/kafka`, `mysql`, `postgres`, `scylladb/scylla`, `redis`, `node`, `php`, `golang`, `python`, `rust`, `hello-world``DownloadAllNecessarilyDockerImages.sh` help to download them without any problem.
 
-if you are guys like me want download all above images you just need to run `DownloadAllNeccesserlyDockerImages.sh` script.
+if you are guys like me want download all above images you just need to run `DownloadAllNecessarilyDockerImages.sh` script.
 
 ## Testing Dockers service through `UpAndRuning10SampleContinerOnDocker.sh`
-if you install and download all neccesserly docker packages and would you like to test your docker on your machine you can just running `UpAndRuning10SampleContinerOnDocker.sh` script. this script will pull down `hello-world` image from
+if you install and download all Necessarily docker packages and would you like to test your docker on your machine you can just running `UpAndRuning10SampleContinerOnDocker.sh` script. this script will pull down `hello-world` image from
 `Docker Hub` then run 10 instance of it simultancly. when its job was done you can watch all docker `containers` that runned through `UpAndRuning10SampleContinerOnDocker.sh`
 
 ## Clean up All Test Containers that runned in the last step through `RemoveAllContainerFromDockerHistory.sh*` 
