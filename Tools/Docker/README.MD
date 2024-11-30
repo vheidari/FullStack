@@ -24,10 +24,10 @@ These are list of Image that I perfer download and install before development pr
 if you are guys like me want download all above images you just need to run `DownloadAllNecessarilyDockerImages.sh` script.
 
 ## Testing Dockers service through `UpAndRuning10SampleContinerOnDocker.sh`
-if you install and download all Necessarily docker packages and would you like to test your docker on your machine you can just running `UpAndRuning10SampleContinerOnDocker.sh` script. this script will pull down `hello-world` image from
+if you install and download all necessarily docker packages and would you like to test your docker on your machine you can just running `UpAndRuning10SampleContinerOnDocker.sh` script. this script will pull down `hello-world` image from
 `Docker Hub` then run 10 instance of it simultancly. when its job was done you can watch all docker `containers` that runned through `UpAndRuning10SampleContinerOnDocker.sh`
 
-## Clean up All Test Containers that runned in the last step through `RemoveAllContainerFromDockerHistory.sh*` 
+## Clean up All Test Containers that runned in the last step through `RemoveAllContainerFromDockerHistory.sh` 
 After testing docker you should need to remove all test containers. `RemoveAllContainerFromDockerHistory.sh` script will remove all test containers quickly. you just need to run it.
 
 ## Kill and Stop All Docker Cointainers that runned before through `KillAndStopAllDockerContainer.sh`

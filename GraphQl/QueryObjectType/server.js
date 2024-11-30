@@ -3,7 +3,7 @@ var {createHandler} = require("graphql-http/lib/use/express")
 var {buildSchema} = require("graphql")
 
 
-// query on client side through curl :
+// ClientSide - query through curl :
 // curl -X POST -H "Content-Type: application/json" -d '{"query": "{coinList{id, name, logo, lastPrice, lastMarketcap, oneLineNews{title,link}}}" }' http://localhost:4000/graphql
 
 // Fake Coins Dataset
@@ -87,19 +87,19 @@ const schema = buildSchema(`
 `);
 
 
-// Implement Resolver function
+// Implementing Resolver function
 const root = {
 	coinList() {
 		return Coins
 	}
 }
 
-// Ready express app for query
+// Ready express app
 const app = express()
 
 
 
-// Handeling all `/graphql` request  
+// Handeling all `/graphql` endpoint request  
 app.all(
 	"/graphql",
 	createHandler({
@@ -111,7 +111,7 @@ app.all(
 // Start listening on port 4000
 app.listen(4000)
 
-// Print information about server and port
+// Print information about server and its port
 console.log("Running a GraphQL API server at localhost:4000/graphql")
 
 

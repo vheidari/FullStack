@@ -3,6 +3,11 @@ var { createHandler } = require("graphql-http/lib/use/express")
 var { buildSchema } = require("graphql")
 var { ruruHTML } = require("ruru/server")
 
+
+// ClientSide - query through curl :
+// curl -X POST -H "Content-Type: application/json" -d '{"query": "{hello}" }' http://localhost:4000/graphql
+
+
 // create schema type
 var schema = buildSchema(`
 	type Query {
