@@ -2,21 +2,21 @@ services:
   load_blancer1:
     image: nginx:latest
     networks:
-      - app-network
+      - lbalancer-network
     ports:
       - "8081:80"
   
   load_blancer2:
     image: nginx:latest
     networks:
-      - app-network
+      - lbalancer-network
     ports:
       - "8082:80"
   
   load_blancer3:
     image: nginx:latest
     networks:
-      - app-network
+      - lbalancer-network
     ports:
       - "8083:80"
 
@@ -26,5 +26,5 @@ services:
       - cache-network
 
 networks:
-  app-network:
+  lbalancer-network:
   cache-network:
