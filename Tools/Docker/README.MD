@@ -9,8 +9,8 @@ If you are comfortable with the command line interface (CLI), you can simply ins
 If you also need to manage your Docker through a graphical user interface (GUI), Docker Desktop helps you manage your Docker through the `Docker API`. It's simple and a useful tool.
 
 
-# Installing Docker Engine and Desktop through `InstallDockerOnUbuntu.sh`
-If you are using a Ubuntu Linux base, `InstallDockerOnUbuntu.sh` script helps you install `Docker Engine` and `Docker Desktop` easily. You can simply run the `./InstallDockerOnUbuntu.sh script`.
+# Installing Docker Engine and Desktop through `InstallDockerOnTheUbuntu.sh`
+If you are using a Ubuntu Linux base, `InstallDockerOnTheUbuntu.sh` script helps you install `Docker Engine` and `Docker Desktop` easily. You can simply run the `./InstallDockerOnTheUbuntu.sh script`.
 
 It will download and install all necessarily `.deb` package from `Docker` website.
 
@@ -18,7 +18,7 @@ It will download and install all necessarily `.deb` package from `Docker` websit
 > Note : Before using any bash script inside this `repo` please be carfull to run them in test environment and be sure don't use them in production environment.
 
 
-## Installing All Necessary IMAGES to setup Development environment thorugh `DownloadAllNecessarilyDockerImages.sh`
+## Installing All Necessary IMAGES and setup Development environment thorugh `DownloadAllNecessarilyDockerImages.sh`
 These are list of Image that I perfer download and install before development process :`nginx`, `rabbitmq`, `mongo`, `apache/kafka`, `mysql`, `postgres`, `scylladb/scylla`, `redis`, `node`, `php`, `golang`, `python`, `rust`, `hello-world``DownloadAllNecessarilyDockerImages.sh` help to download them without any problem.
 
 if you are guys like me want download all above images you just need to run `DownloadAllNecessarilyDockerImages.sh` script.
